@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:gravity="center" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/editfoto"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/placeholde" />
+
+    <EditText
+        android:id="@+id/editnama"
+        android:layout_width="280dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Food Name" />
+
+
+    <EditText
+        android:id="@+id/editnrp"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:hint="Price (Per pics)" />
+
+    <Button
+        android:id="@+id/tomboledit"
+        android:layout_width="280dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Update FOOD" />
+
+
+
+</LinearLayout>
